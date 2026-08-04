@@ -99,5 +99,4 @@ Backup/
 
 ## Author
 
-Gilang Satrio
-Industrial Automation Engineer
+Gilang Satrio - Industrial Automation Engineer
