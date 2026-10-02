@@ -71,7 +71,7 @@ Main features:
 ### CC-Link V2
 
 - AJ65SBTB1-32D
-- AJ65SBTB1-S2T
+- AJ65SBTB1-32T
 
 ---
 
