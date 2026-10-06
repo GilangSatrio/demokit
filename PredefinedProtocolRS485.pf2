@@ -1,0 +1,488 @@
+[Head]
+	Information:
+		Packege Name	QFBP
+		Packege Type	SC
+		Major Version	2
+		Minor Version	23Z
+		Use Major Version	2
+		Use Minor Version	21X
+		File Version	1
+	Project:
+		Project Name	PredefinedProtocolRS485.pf2
+		Project Type	USER
+		Project Comment	
+		Last Update	2026/10/06
+[DATA00]
+	Data Information:
+		XY Address	   0
+	Protocol Data:
+		Use Protocol No	1
+		Protocol Name	06:WR Single Register
+		Protocol Type	0
+		Maker Name	Schneider Electric
+		Kind Name	Communication Protocol
+		Model Type	MODBUS
+		Communication Type	2
+		Send Packet No00	1
+		Receive Packet No00	2
+		Receive Packet No01	3
+		Receive Packet No02	NULL
+		Receive Packet No03	NULL
+		Receive Packet No04	NULL
+		Receive Packet No05	NULL
+		Receive Packet No06	NULL
+		Receive Packet No07	NULL
+		Receive Packet No08	NULL
+		Receive Packet No09	NULL
+		Receive Packet No10	NULL
+		Receive Packet No11	NULL
+		Receive Packet No12	NULL
+		Receive Packet No13	NULL
+		Receive Packet No14	NULL
+		Receive Packet No15	NULL
+		Buffer Clear	1
+		Retry Count	0
+		Retry Timer	500
+		Stand by Time	0
+		Watch Time	200
+		Reception Time	0
+	Protocol Macro Data:
+		Macro Notation Version	257
+		Macro Definition File Version	1
+		Macro Maker Number	14
+		Macro Kind Number	22
+		Macro Model Number	1
+		Macro Version	1
+		Macro Explanation	MODBUS
+		Macro Protocol No	6
+		Macro Send Packet No00	16
+		Macro Receive Packet No00	17
+		Macro Receive Packet No01	18
+		Macro Receive Packet No02	NULL
+		Macro Receive Packet No03	NULL
+		Macro Receive Packet No04	NULL
+		Macro Receive Packet No05	NULL
+		Macro Receive Packet No06	NULL
+		Macro Receive Packet No07	NULL
+		Macro Receive Packet No08	NULL
+		Macro Receive Packet No09	NULL
+		Macro Receive Packet No10	NULL
+		Macro Receive Packet No11	NULL
+		Macro Receive Packet No12	NULL
+		Macro Receive Packet No13	NULL
+		Macro Receive Packet No14	NULL
+		Macro Receive Packet No15	NULL
+	Protocol Data:
+		Use Protocol No	2
+		Protocol Name	06:WR Single Register
+		Protocol Type	0
+		Maker Name	Schneider Electric
+		Kind Name	Communication Protocol
+		Model Type	MODBUS
+		Communication Type	2
+		Send Packet No00	4
+		Receive Packet No00	5
+		Receive Packet No01	6
+		Receive Packet No02	NULL
+		Receive Packet No03	NULL
+		Receive Packet No04	NULL
+		Receive Packet No05	NULL
+		Receive Packet No06	NULL
+		Receive Packet No07	NULL
+		Receive Packet No08	NULL
+		Receive Packet No09	NULL
+		Receive Packet No10	NULL
+		Receive Packet No11	NULL
+		Receive Packet No12	NULL
+		Receive Packet No13	NULL
+		Receive Packet No14	NULL
+		Receive Packet No15	NULL
+		Buffer Clear	1
+		Retry Count	0
+		Retry Timer	500
+		Stand by Time	0
+		Watch Time	200
+		Reception Time	0
+	Protocol Macro Data:
+		Macro Notation Version	257
+		Macro Definition File Version	1
+		Macro Maker Number	14
+		Macro Kind Number	22
+		Macro Model Number	1
+		Macro Version	1
+		Macro Explanation	MODBUS
+		Macro Protocol No	6
+		Macro Send Packet No00	16
+		Macro Receive Packet No00	17
+		Macro Receive Packet No01	18
+		Macro Receive Packet No02	NULL
+		Macro Receive Packet No03	NULL
+		Macro Receive Packet No04	NULL
+		Macro Receive Packet No05	NULL
+		Macro Receive Packet No06	NULL
+		Macro Receive Packet No07	NULL
+		Macro Receive Packet No08	NULL
+		Macro Receive Packet No09	NULL
+		Macro Receive Packet No10	NULL
+		Macro Receive Packet No11	NULL
+		Macro Receive Packet No12	NULL
+		Macro Receive Packet No13	NULL
+		Macro Receive Packet No14	NULL
+		Macro Receive Packet No15	NULL
+	Packet Data:
+		Use Packet No	1
+		Macro Packet No	16
+		Packet Name	06:WR Single Register
+		Packet Type	0
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	410
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Function Code
+		Code Type	2
+		Value	06
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Register Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	411
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Register Value
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	412
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	52
+		Element Number	5
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	4
+		Complement Calc	0
+		Order Data	1
+	Packet Data:
+		Use Packet No	2
+		Macro Packet No	17
+		Packet Name	NOR/06:WR Single Register
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	420
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Function Code
+		Code Type	2
+		Value	06
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Register Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	421
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Register Value
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	422
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	52
+		Element Number	5
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	4
+		Complement Calc	0
+		Order Data	1
+	Packet Data:
+		Use Packet No	3
+		Macro Packet No	18
+		Packet Name	ERR/06:WR Single Register
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	423
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Error Code
+		Code Type	2
+		Value	86
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Exception Code
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	424
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	52
+		Element Number	4
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	3
+		Complement Calc	0
+		Order Data	1
+	Packet Data:
+		Use Packet No	4
+		Macro Packet No	16
+		Packet Name	06:WR Single Register
+		Packet Type	0
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	410
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Function Code
+		Code Type	2
+		Value	06
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Register Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	413
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Register Value
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	414
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	52
+		Element Number	5
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	4
+		Complement Calc	0
+		Order Data	1
+	Packet Data:
+		Use Packet No	5
+		Macro Packet No	17
+		Packet Name	NOR/06:WR Single Register
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	426
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Function Code
+		Code Type	2
+		Value	06
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Register Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	427
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Register Value
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	428
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	1
+	Element Data:
+		Frame Type	52
+		Element Number	5
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	4
+		Complement Calc	0
+		Order Data	1
+	Packet Data:
+		Use Packet No	6
+		Macro Packet No	18
+		Packet Name	ERR/06:WR Single Register
+		Packet Type	1
+	Element Data:
+		Frame Type	65
+		Element Number	1
+		Element Name	Slave Address
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	429
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	2
+		Element Name	Error Code
+		Code Type	2
+		Value	86
+	Element Data:
+		Frame Type	65
+		Element Number	3
+		Element Name	Exception Code
+		Mode	0
+		Device Code	32
+		Device EX Code	0
+		Device No	430
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	52
+		Element Number	4
+		Element Name	Error Check
+		Mode	2
+		Code Type	2
+		Data Length	2
+		First Element	1
+		Last Element	3
+		Complement Calc	0
+		Order Data	1
+[END]
