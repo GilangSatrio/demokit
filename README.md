@@ -33,7 +33,7 @@ The project is intended to be both a working automation demo and a **hands-on tu
 |---|---|
 | R61P | Power Supply |
 | R01CPU | iQ-R CPU |
-| RX40C4 | Digital Input |
+| RX41C4 | Digital Input |
 | RY41NT2P | Digital Output |
 | R60AD4 | Analog Input |
 | R60DA4 | Analog Output |
